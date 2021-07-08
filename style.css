@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  main{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  h1{
+    color: #B1B995;
+    font-size: 2.5rem;
+    margin: 1.7rem 1.2rem 1.2rem 1.2rem;
+  }
+
+  span#line{
+    background-color: #B1B995;
+    height: 2px;
+    width:70%;
+    margin: 1rem;
+  }
+
+/*
+  User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+  User Story #9: The img element should be centered within its parent element.
+*/
+  img#image{
+    height: auto;
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    display: block;
+  }
+
+  main>div#img-div{
+    margin: 6rem;
+  }
+
+  .notes{
+    max-width: 640px;
+    text-align: center;
+    font-style: oblique;
+  }
+
+  div#tribute-info{
+    background-color: #B1B995;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+  }
+
+  div#tribute-info div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bio-elements{
+    flex: 0 45%;
+  }
+
+  #info-bio{
+    flex-direction: column;
+    padding: 3rem;
+  }
+  #info-prize{
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  p#text-link{
+    margin: 5rem;
+  }
